@@ -1,0 +1,18 @@
+[14-Apr-2023 09:30:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AI1WM_MAX_FILE_SIZE" in C:\xampp\htdocs\wordpress\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Ai1wmue_Main_Controller->enqueue_import_scripts_and_styles('all-in-one-wp-m...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'all-in-one-wp-m...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(239): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php on line 215
+[14-Apr-2023 09:30:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AI1WM_MAX_FILE_SIZE" in C:\xampp\htdocs\wordpress\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): Ai1wmue_Main_Controller->enqueue_import_scripts_and_styles('all-in-one-wp-m...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'all-in-one-wp-m...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(239): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\all-in-one-wp-migration-unlimited-extension\lib\controller\class-ai1wmue-main-controller.php on line 215
